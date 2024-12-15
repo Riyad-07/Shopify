@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  @apply w-[1212px] mx-auto
+}
+
+#banner{
+  background: url(/public/assets/Banner.jpg) no-repeat center / cover;
+  
+}
+
+
+.htitle{
+  @apply font-monts font-bold text-5xl leading-[100%] tracking-[-1%] text-[#263238]
+}
