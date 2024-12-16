@@ -4,6 +4,8 @@ import Banner from "./components/Banner";
 import ExpertGirls from "./components/ExpertGirls";
 import Traveller from "./components/Traveller";
 import Expert from "./components/Expert";
+import Plan from "./components/Plan";
+import Membar from "./components/Membar";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <ExpertGirls/>
       <Traveller/>
       <Expert/>
+      <Plan/>
+      <Membar/>
     </>
   );
 };
