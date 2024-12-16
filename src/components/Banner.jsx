@@ -1,5 +1,4 @@
 import React from "react";
-import banner from "../../public/assets/Banner.jpg";
 import Input from "./layers/Input";
 import { FaArrowRight } from "react-icons/fa";
 import Trip from "./layers/Trip";
@@ -11,12 +10,12 @@ const Banner = () => {
   return (
     <div id="banner" className="relative">
       <div className="xl:container w-auto mx-auto md:flex items-center md:justify-between xl:gap-x-6 py-[208px]">
-        <div className="left w-auto ">
+        <div className="w-auto left ">
           <h1 className="font-bold text-[25px] lg:text-[45px] xl:text-[56px] text-white xl:w-[618px] w-auto font-monts">
             The Premier <br /> Co-living Travel <br /> Network for Women
           </h1>
-          <div className="flex gap-x-4 mt-6">
-            <p className="w-10 h-[3px] bg-white mt-3"></p>
+          <div className="flex mt-6 gap-x-4">
+            <p className="w-10 h-[3px] bg-white mt-3 rounded-2xl"></p>
             <p className="font-bold font-monts text-white w-auto xl:w-[513px] text-sm lg:text-base xl:text-lg leading-[160%] ">
               Find your perfect housemate,
               <br /> move faster, stay longer, and travel with confidence.
@@ -32,7 +31,7 @@ const Banner = () => {
               Sign up with email
             </h3>
 
-            <div className="md:flex items-center  md:gap-x-3 xl:gap-x-6">
+            <div className="items-center md:flex md:gap-x-3 xl:gap-x-6">
               <Input
                 className="xl:w-[245px] w-full"
                 labelText="First name"

@@ -15,3 +15,8 @@
 .htitle{
   @apply font-monts font-bold text-5xl leading-[100%] tracking-[-1%] text-[#263238]
 }
+
+.bold{
+  @apply font-monts font-bold text-5xl text-[#1D2939] leading-[133%]
+}
+
