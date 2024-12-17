@@ -4,7 +4,7 @@ import expert from '../../public/assets/Expert.jpg'
 
 const ExpertGirls = () => {
   return (
-    <div className="xl:container w-auto mx-auto mt-[550px] md:mt-[282px]  md:flex items-center md:gap-x-2 xl:gap-x-8">
+    <div className="xl:w-[1212px] w-auto mx-auto mt-[550px] md:mt-[282px]  md:flex items-center md:gap-x-2 xl:gap-x-8">
       <div className="h-[547px] xl:w-[561px]  lg:mx-[30px] xl:mx-[58px] w-auto">
         <img className="object-contain w-full h-full " src={expert} alt="expert girl" />
       </div>

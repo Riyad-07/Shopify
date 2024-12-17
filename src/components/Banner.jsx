@@ -9,7 +9,7 @@ const Banner = () => {
   };
   return (
     <div id="banner" className="relative">
-      <div className="xl:container w-auto mx-auto md:flex items-center md:justify-between xl:gap-x-6 py-[208px]">
+      <div className="xl:w-[1212px] w-auto mx-auto md:flex items-center md:justify-between xl:gap-x-6 py-[208px]">
         <div className="w-auto left ">
           <h1 className="font-bold text-[25px] lg:text-[45px] xl:text-[56px] text-white xl:w-[618px] w-auto font-monts">
             The Premier <br /> Co-living Travel <br /> Network for Women

@@ -6,7 +6,7 @@ import three from "../../../public/assets/BannerTrip/three.png";
 
 const Trip = () => {
   return (
-    <div className="xl:container w-full absolute left-1/2 -translate-x-1/2 md:-bottom-[160px] bg-white rounded-2xl flex items-center flex-col md:flex-row lg:justify-between lg:gap-x-6 md:p-6 p-1">
+    <div className="xl:w-[1212px] w-full absolute left-1/2 -translate-x-1/2 md:-bottom-[160px] bg-white rounded-2xl flex items-center flex-col md:flex-row lg:justify-between lg:gap-x-6 md:p-6 p-1">
       <TripCart
         src={one}
         headingTitle="150+ Countries"

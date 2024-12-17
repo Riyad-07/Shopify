@@ -7,8 +7,13 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      'monts': ['Montserrat', 'sans-serif',]
+      'monts': ['Montserrat', 'sans-serif',],
+      'pop': ['Poppins', 'sans-serif',],
+
     }
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+
 }

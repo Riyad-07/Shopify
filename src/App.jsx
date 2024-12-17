@@ -6,6 +6,8 @@ import Traveller from "./components/Traveller";
 import Expert from "./components/Expert";
 import Plan from "./components/Plan";
 import Membar from "./components/Membar";
+import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Expert/>
       <Plan/>
       <Membar/>
+      <Faq/>
+      <Footer/>
     </>
   );
 };
