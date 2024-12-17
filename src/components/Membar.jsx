@@ -51,7 +51,7 @@ const Membar = () => {
         Hear from women who share your passion for exploring new cultures,
         experiencing life abroad, and making the most of every opportunity.
       </p>
-      {/* Slider */}
+                              {/* Slider */}
       <Slider {...settings}>
         <div className="w-full xl:w-[500px]">
           <div className="flex items-center w-full xl:justify-between gap-x-10">
