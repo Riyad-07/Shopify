@@ -75,7 +75,7 @@ const Membar = () => {
               </div>
             </div>
             <div className="w-auto">
-              <p className="text-2xl font-medium font-monts leading-[164%] text-[#344054] xl:w-[597px] w-full">
+              <p className="md:text-xl sm:text-[14px] xl:text-2xl font-medium font-monts leading-[164%] text-[#344054] xl:w-[597px] w-full">
               Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.
               </p>
             </div>
@@ -103,12 +103,13 @@ const Membar = () => {
               </div>
             </div>
             <div className="w-auto">
-              <p className="text-2xl font-medium font-monts leading-[164%] text-[#344054] xl:w-[597px] w-full">
+              <p className="md:text-2xl text-[18px] font-medium font-monts leading-[164%] text-[#344054] xl:w-[597px] w-full">
               Our smart developers build innovative, efficient, and high- performance solutions. efficient, and high- performance solutions. efficient, and high- performance solutions.
               </p>
             </div>
           </div>
         </div>
+        
 
         
       </Slider>

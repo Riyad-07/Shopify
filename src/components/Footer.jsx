@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="pt-[88px]">
+    <footer className="pt-[88px] p-3 md:p-0">
       <div className="w-full mx-auto xl:w-[1212px]  ">
         <div className="items-center w-full md:flex xl:justify-between gap-x-10 border-b border-[#D0D5DD] pb-7">
           <div className="">
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-auto mt-5 md:mt-0">
-            <h4 className="text-lg font-semibold font-monts leading-[160%] tracking-[2%] text-[#1D2939] mb-4">
+            <h4 className="text-lg font-semibold font-monts leading-[160%] tracking-[2%] text-[#1D2939] mb-4 w-full md:w-[200px]">
               Quick Link
             </h4>
             <ul className="text-lg  font-monts leading-[160%]  text-[#344054] flex flex-col gap-4">
