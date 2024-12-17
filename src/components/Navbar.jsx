@@ -3,7 +3,7 @@ import Logo from '../../public/assets/Logo.png'
 
 const Navbar = () => {
   return (
-    <div  className='xl:container  w-full px-5 py-2 flex items-center justify-between bg-[rgba(244,244,244,.20)] absolute left-1/2 -translate-x-1/2 top-6 rounded-2xl z-50'>
+    <div  className='xl:w-[1212px]  w-full px-5 py-2 flex items-center justify-between bg-[rgba(244,244,244,.20)] absolute left-1/2 -translate-x-1/2 top-6 rounded-2xl z-50'>
         <div className="logo">
             <img src={Logo} alt="Logo" />
         </div>
